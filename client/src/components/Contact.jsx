@@ -114,7 +114,7 @@ incidental, punitive, or consequential damages.
   `;
 
   const playVideo = () => {
-    const videoUrl = "https://drive.google.com/uc?id=your_video_id"; // Replace with your Google Drive video link
+    const videoUrl = "https://drive.google.com/file/d/1T_XCry2aE5U5EylHLbJynI0cR7Suem1w/view?usp=drivesdk"; // Replace with your Google Drive video link
     const videoElement = document.createElement("video");
     videoElement.src = videoUrl;
     videoElement.controls = true;
