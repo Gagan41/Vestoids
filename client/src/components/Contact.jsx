@@ -251,7 +251,7 @@ incidental, punitive, or consequential damages.
               >
                 <FaInstagram />
               </a>
-              <a href="#" className="text-orange-500 hover:text-orange-600">
+              <a href="https://youtube.com/@vestoids-media?feature=shared" className="text-orange-500 hover:text-orange-600">
                 <FaYoutube />
               </a>
             </div>
