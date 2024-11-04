@@ -114,17 +114,16 @@ incidental, punitive, or consequential damages.
   `;
 
   const playVideo = () => {
-    const videoUrl = "https://drive.google.com/file/d/1T_XCry2aE5U5EylHLbJynI0cR7Suem1w/view?usp=drivesdk"; // Replace with your Google Drive video link
-    const videoElement = document.createElement("video");
+    const videoUrl = `https://drive.google.com/file/d/1T_XCry2aE5U5EylHLbJynI0cR7Suem1w/preview`;
+    const videoElement = document.createElement("iframe");
     videoElement.src = videoUrl;
-    videoElement.controls = true;
+    videoElement.allow = "autoplay";
     videoElement.style.position = "fixed";
     videoElement.style.top = "0";
     videoElement.style.left = "0";
     videoElement.style.width = "100vw";
     videoElement.style.height = "100vh";
     videoElement.style.zIndex = "10000";
-    videoElement.play();
     document.body.appendChild(videoElement);
 
     videoElement.onended = () => {
@@ -251,7 +250,10 @@ incidental, punitive, or consequential damages.
               >
                 <FaInstagram />
               </a>
-              <a href="https://youtube.com/@vestoids-media?feature=shared" className="text-orange-500 hover:text-orange-600">
+              <a
+                href="https://youtube.com/@vestoids-media?feature=shared"
+                className="text-orange-500 hover:text-orange-600"
+              >
                 <FaYoutube />
               </a>
             </div>
