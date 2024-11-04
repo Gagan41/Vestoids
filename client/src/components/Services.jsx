@@ -26,7 +26,7 @@ const Services = () => {
           <p className="text-white text-base">✓ Web design</p>
         </div>
         <p className="text-base font-light text-white sm:text-lg mb-8 mt-8 leading-relaxed text-justify">
-        Our services also include web design and email marketing, ensuring a cohesive and engaging online presence. By blending creativity with data-driven strategies, Vestoids-Medis supports brands in growing and thriving online.
+        Our services also include web design and email marketing, ensuring a cohesive and engaging online presence. By blending creativity with data-driven strategies, Vestoids-Media supports brands in growing and thriving online.
         </p>
       </div>
 
