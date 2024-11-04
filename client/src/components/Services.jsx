@@ -14,7 +14,7 @@ const Services = () => {
       {/* Text Content Section */}
       <div className="lg:w-2/3 flex flex-col gap-x-2">
         <p className="text-base font-light text-white sm:text-lg mb-8 leading-relaxed text-justify">
-        Vestoids-Medis Agency is dedicated to elevating your brand in the digital landscape. We offer content creation, social media management, SEO analysis, and advertising to help your brand connect with audiences and stand out.
+        Vestoids-Media Agency is dedicated to elevating your brand in the digital landscape. We offer content creation, social media management, SEO analysis, and advertising to help your brand connect with audiences and stand out.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-y-4">
