@@ -13,19 +13,19 @@ const Services = () => {
 
       {/* Text Content Section */}
       <div className="lg:w-2/3 flex flex-col gap-x-2">
-        <p className="text-base font-light text-white sm:text-lg mb-8 leading-relaxed text-justify">
+        <p className="text-base font-light text-white sm:text-lg mb-2 leading-relaxed text-justify">
         Vestoids-Media Agency is dedicated to elevating your brand in the digital landscape. We offer content creation, social media management, SEO analysis, and advertising to help your brand connect with audiences and stand out.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-y-4">
           <p className="text-white text-base">✓ Content Creation</p>
-          <p className="text-white text-base">✓ Social media Management</p>
+          <p className="text-white text-base">✓ Social Media</p>
           <p className="text-white text-base">✓ SEO Analysis</p>
           <p className="text-white text-base">✓ Advertizing</p>
           <p className="text-white text-base">✓ Email Marketing</p>
           <p className="text-white text-base">✓ Web design</p>
         </div>
-        <p className="text-base font-light text-white sm:text-lg mb-8 mt-8 leading-relaxed text-justify">
+        <p className="text-base font-light text-white sm:text-lg mt-2 leading-relaxed text-justify">
         Our services also include web design and email marketing, ensuring a cohesive and engaging online presence. By blending creativity with data-driven strategies, Vestoids-Media supports brands in growing and thriving online.
         </p>
       </div>
