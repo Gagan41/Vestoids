@@ -81,7 +81,7 @@ const Home = () => {
       setIsLoading(true); // Start loading
 
       const response = await axios.post(
-        `https://vestoids-media.com/api/contacts`,
+        `https://api.vestoids-media.com/api/contacts`,
         formData
     );
 
