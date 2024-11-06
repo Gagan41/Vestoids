@@ -81,7 +81,7 @@ const Home = () => {
       setIsLoading(true); // Start loading
 
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/contacts`,
+        `https://vestoids-media.com/api/contacts`,
         formData
     );
 
