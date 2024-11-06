@@ -20,6 +20,10 @@ app.use(express.json());
 const contactsRoute = require('./routes/Contacts');
 app.use('/api/contacts', contactsRoute);
 
+app.get('/', (req, res) => {
+  res.send('Vestoids Media API');
+}); 
+
 // Connect to MongoDB
 const connectDB = async () => {
   try {
