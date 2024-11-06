@@ -169,7 +169,7 @@ incidental, punitive, or consequential damages.
         <div className="flex-1 flex justify-center items-center mt-10 lg:mt-0">
           <div className="relative w-full max-w-lg">
             <img
-              src="../../images/web1.png"
+              src="../../images/hustler.png"
               alt="Hello Hustler"
               className="w-full rounded-lg"
             />
