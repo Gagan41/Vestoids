@@ -9,7 +9,7 @@ const app = express();
 
 // CORS Configuration
 const corsOptions = {
-  origin: process.env.VITE_APP_ORIGIN, // Frontend URL
+  origin:  ["http://localhost:5173", "https://vestoids-media.com"], // Frontend URL
   optionsSuccessStatus: 200,
 };
 
@@ -40,5 +40,5 @@ app.use((req, res, next) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 5000;
+const PORT = 5143;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
