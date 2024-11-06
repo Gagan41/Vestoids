@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import logo from "../../images/logo1.png";
+import hustler from "../../images/hustler.png";
 
 const Contact = () => {
   const [modalContent, setModalContent] = useState(null);
@@ -169,7 +170,7 @@ incidental, punitive, or consequential damages.
         <div className="flex-1 flex justify-center items-center mt-10 lg:mt-0">
           <div className="relative w-full max-w-lg">
             <img
-              src="../../images/hustler.png"
+              src={hustler}
               alt="Hello Hustler"
               className="w-full rounded-lg"
             />
