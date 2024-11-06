@@ -10,8 +10,6 @@ const app = express();
 // CORS Configuration
 const corsOptions = {
   origin:  ["http://localhost:5173", "https://vestoids-media.com"], // Frontend URL
-  methods: ['GET', 'POST'], // Specify allowed methods
-  credentials: true,
   optionsSuccessStatus: 200,
 };
 

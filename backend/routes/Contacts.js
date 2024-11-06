@@ -5,16 +5,6 @@ const Contact = require("../models/Contact");
 // @route   POST /api/contacts
 // @desc    Create a new contact message
 // @access  Public
-
-// Handle preflight (OPTIONS) request for CORS
-router.options("/", (req, res) => {
-  res.header("Access-Control-Allow-Origin", "https://vestoids-media.com"); // Ensure it matches your frontend domain
-  res.header("Access-Control-Allow-Methods", "POST, OPTIONS"); // Allow POST and OPTIONS methods
-  res.header("Access-Control-Allow-Headers", "Content-Type"); // Allow Content-Type header
-  res.status(200).end();
-});
-
-// Handle POST request to create a new contact
 router.post("/", async (req, res) => {
   const { name, email, phone, subject, message } = req.body;
 
